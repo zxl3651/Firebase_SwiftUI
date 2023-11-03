@@ -11,6 +11,7 @@
 		715887B32AEA964400B955A8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715887B22AEA964400B955A8 /* ContentView.swift */; };
 		715887B52AEA964600B955A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 715887B42AEA964600B955A8 /* Assets.xcassets */; };
 		715887B82AEA964600B955A8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 715887B72AEA964600B955A8 /* Preview Assets.xcassets */; };
+		71D685BB2AF3B9450062BA87 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 71D685BA2AF3B9450062BA87 /* GoogleService-Info.plist */; };
 		E65CC80E5CDDDFFDFE84FAE4 /* Pods_FirebaseAPI_SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF284E52E3F899AE9DB13B0F /* Pods_FirebaseAPI_SwiftUI.framework */; };
 /* End PBXBuildFile section */
 
@@ -21,6 +22,7 @@
 		715887B22AEA964400B955A8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		715887B42AEA964600B955A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		715887B72AEA964600B955A8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		71D685BA2AF3B9450062BA87 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		82C2D196E8EB767F6E1EA822 /* Pods-FirebaseAPI_SwiftUI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseAPI_SwiftUI.debug.xcconfig"; path = "Target Support Files/Pods-FirebaseAPI_SwiftUI/Pods-FirebaseAPI_SwiftUI.debug.xcconfig"; sourceTree = "<group>"; };
 		CF284E52E3F899AE9DB13B0F /* Pods_FirebaseAPI_SwiftUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FirebaseAPI_SwiftUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -43,7 +45,6 @@
 				82C2D196E8EB767F6E1EA822 /* Pods-FirebaseAPI_SwiftUI.debug.xcconfig */,
 				35B61CA28C9D30AF01AB05EA /* Pods-FirebaseAPI_SwiftUI.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -68,6 +69,7 @@
 		715887AF2AEA964400B955A8 /* FirebaseAPI_SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				71D685BA2AF3B9450062BA87 /* GoogleService-Info.plist */,
 				715887B02AEA964400B955A8 /* FirebaseAPI_SwiftUIApp.swift */,
 				715887B22AEA964400B955A8 /* ContentView.swift */,
 				715887B42AEA964600B955A8 /* Assets.xcassets */,
@@ -154,6 +156,7 @@
 			files = (
 				715887B82AEA964600B955A8 /* Preview Assets.xcassets in Resources */,
 				715887B52AEA964600B955A8 /* Assets.xcassets in Resources */,
+				71D685BB2AF3B9450062BA87 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -344,6 +347,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"FirebaseAPI_SwiftUI/Preview Content\"";
 				DEVELOPMENT_TEAM = J3XZ67KDFK;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -374,6 +378,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"FirebaseAPI_SwiftUI/Preview Content\"";
 				DEVELOPMENT_TEAM = J3XZ67KDFK;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
